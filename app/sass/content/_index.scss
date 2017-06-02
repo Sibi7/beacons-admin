@@ -1,2 +1,94 @@
+.sidebar{
+  display: block;
+  position: fixed;
+  float: left;
+  width: 315px;
+  height: 100vh;
+  color: #fff;
+  background-color: #33414e;
+  &__head{
+    height: 60px;
+    background-color: #85c875;
+    width: 100%;
+    text-align: center;
+    line-height: 59px;
+   a{
+     font-family: $BebasNeueB;
+     font-size: 36px;
+     font-weight: 400;
+     color: #fff;
+     text-transform: uppercase;
+   }
+    &__hamburger{
+      width: 37px;
+      height: 37px;
+      box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+      background-color: #85c875;
+      display: inline-block;
+      border-radius: 50%;
+      text-align: center;
+      position: absolute;
+      right: -15px;
+      top: 10px;
+
+      a{
+        display: block;
+        color: #fff;
+        line-height: 35px;
+        font-size: 22px;
+
+      }
+    }
+  }
+  &__profile{
+    width: 100%;
+    height: 128px;
+    padding-top: 24px;
+    display: block;
+    margin: 0 auto;
+    background-color: #293744;
+    &__avatar{
+      margin-left: 25px;
+      width: 80px;
+      height: 80px;
+      display: block;
+      float: left;
+      position: relative;
+      border: 1px solid #85c875;
+      background-color: #343d46;
+      border-radius: 50%;
+      img{
+        width: 100%;
+        object-fit: cover;
+        padding: 5px;
+      }
+    }
+    &__initial{
+      display: block;
+      position: relative;
+      float: left;
+      margin-top: 17px;
+      height: 12px;
+      color: #ffffff;
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      margin-left: 8px;
+      font-style: italic;
+      span{
+        font-weight: 700;
+      }
+      p{
+        color: #8fa0b1;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        font-style: italic;
+        margin: 10px 0 0 0;
+      }
+    }
+  }
+
+}
 
 
