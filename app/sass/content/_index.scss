@@ -1,4 +1,5 @@
 .sidebar {
+
   display: block;
   position: fixed;
   float: left;
@@ -6,6 +7,7 @@
   height: 100vh;
   color: #fff;
   background-color: #33414e;
+
   &__head {
     height: 60px;
     background-color: #85c875;
@@ -19,6 +21,7 @@
       color: #fff;
       text-transform: uppercase;
     }
+
     &__hamburger {
       width: 37px;
       height: 37px;
@@ -30,7 +33,9 @@
       position: absolute;
       right: -15px;
       top: 10px;
-
+      .active{
+        left: -300px;
+      }
       a {
         display: block;
         color: #fff;
@@ -38,6 +43,7 @@
         font-size: 22px;
 
       }
+
     }
   }
   &__profile {
@@ -110,6 +116,16 @@
       font-size: 20px;
       font-weight: 400;
       padding-left: 32px;
+      &:hover{
+        border-left: 8px solid #85c875;
+        padding-left: 24px;
+        transition: 200ms ease;
+
+      }
+    }
+    .active{
+      border-left: 8px solid #85c875;
+      padding-left: 24px;
     }
     &__border {
       display: block;
@@ -121,6 +137,11 @@
     }
   }
 
+}
+.actives{
+  position: absolute;
+  left: -290px;
+  transition: 300ms ease;
 }
 
 
