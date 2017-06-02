@@ -1,4 +1,4 @@
-.sidebar{
+.sidebar {
   display: block;
   position: fixed;
   float: left;
@@ -6,20 +6,20 @@
   height: 100vh;
   color: #fff;
   background-color: #33414e;
-  &__head{
+  &__head {
     height: 60px;
     background-color: #85c875;
     width: 100%;
     text-align: center;
     line-height: 59px;
-   a{
-     font-family: $BebasNeueB;
-     font-size: 36px;
-     font-weight: 400;
-     color: #fff;
-     text-transform: uppercase;
-   }
-    &__hamburger{
+    a {
+      font-family: $BebasNeueB;
+      font-size: 36px;
+      font-weight: 400;
+      color: #fff;
+      text-transform: uppercase;
+    }
+    &__hamburger {
       width: 37px;
       height: 37px;
       box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -31,7 +31,7 @@
       right: -15px;
       top: 10px;
 
-      a{
+      a {
         display: block;
         color: #fff;
         line-height: 35px;
@@ -40,14 +40,14 @@
       }
     }
   }
-  &__profile{
+  &__profile {
     width: 100%;
     height: 128px;
     padding-top: 24px;
     display: block;
     margin: 0 auto;
     background-color: #293744;
-    &__avatar{
+    &__avatar {
       margin-left: 25px;
       width: 80px;
       height: 80px;
@@ -57,13 +57,13 @@
       border: 1px solid #85c875;
       background-color: #343d46;
       border-radius: 50%;
-      img{
+      img {
         width: 100%;
         object-fit: cover;
         padding: 5px;
       }
     }
-    &__initial{
+    &__initial {
       display: block;
       position: relative;
       float: left;
@@ -75,10 +75,10 @@
       font-weight: 400;
       margin-left: 8px;
       font-style: italic;
-      span{
+      span {
         font-weight: 700;
       }
-      p{
+      p {
         color: #8fa0b1;
         font-family: "Open Sans", sans-serif;
         font-weight: 300;
@@ -88,22 +88,22 @@
       }
     }
   }
-  &__category{
+  &__category {
     display: block;
     position: relative;
     float: left;
     width: 100%;
-    a{
-      img{
-        display: inline-block;
-        position: relative;
+    a {
+      img {
+        margin-top: -6px;
         margin-right: 25px;
-        vertical-align: middle;
+        width: 20px;
+        object-fit: cover;
       }
       display: block;
       position: relative;
       float: left;
-      width:100%;
+      width: 100%;
       height: 67px;
       line-height: 67px;
       color: #ededec;
@@ -111,7 +111,7 @@
       font-weight: 400;
       padding-left: 32px;
     }
-    &__border{
+    &__border {
       display: block;
       position: relative;
       float: left;
