@@ -6,9 +6,14 @@ $(document).ready(function () {
         $(this).addClass('active');
     });
 
-
     $(".sidebar__head__hamburger").click(function () {
         $('.sidebar').toggleClass("actives");
     });
+
+
+    $(".sidebar__head__hamburger").click(function () {
+        $('.content').toggleClass("active-content");
+    });
+
 
 });

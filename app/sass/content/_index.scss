@@ -1,7 +1,7 @@
 .sidebar {
-
+z-index: 1;
   display: block;
-  position: fixed;
+  position: relative;
   float: left;
   width: 315px;
   height: 100vh;
@@ -146,10 +146,21 @@
   position: absolute;
   left: -290px;
   transition: 300ms ease;
+  margin-right: -315px;
 }
 .actives .sidebar__head__hamburger{
   transform: rotate(180deg);
   transition: 300ms ease;
+}
+.content{
+  position: relative;
+  display: block;
+  float: left;
+  width: calc(100% - 335px);
+}
+.active-content{
+  width: calc(100% - 25px);
+  margin-left: 25px;
 }
 
 
