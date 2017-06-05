@@ -1,0 +1,47 @@
+.beacons-uri .content__wrapper__item .table>tbody>tr>td{
+  vertical-align: middle;
+}
+.beacons-uri .content__wrapper__item .table thead{
+  text-transform: uppercase;
+  color: #777777;
+  font-size: 12px;
+  font-weight: 700;
+}
+.beacons-uri .content__wrapper__item .table tr td button{
+  width: 78px;
+  height: 26px;
+  background-color: #85c875;
+  border: none;
+  outline: none;
+  color: #fbfbfb;
+  cursor: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 30px;
+
+}
+.beacons-uri .content__wrapper__item .table tr td .fa{
+  font-size: 20px;
+}
+.beacons-uri .content__wrapper__item .table tr .date a{
+  display: inline-block;
+  font-size: 18px;
+  opacity: 0;
+  width: 18px;
+  position: absolute;
+  margin-left: 10px;
+  transition: 200ms ease;
+}
+.beacons-uri .content__wrapper__item .table tr .date{
+  transition: 200ms ease;
+}
+.beacons-uri .content__wrapper__item .table tr .date:hover{
+  color: #ff6633;
+  transition: 200ms ease;
+}
+.beacons-uri .content__wrapper__item .table tr .date:hover a{
+  display: inline-block;
+  color: #ff6633;
+  transition: 200ms ease;
+  opacity: 1;
+}
