@@ -1,11 +1,6 @@
 $(document).ready(function () {
 
 
-    // $('.sidebar__category a').click(function (e) {
-    //     $('.sidebar__category a').removeClass('active');
-    //     $(this).addClass('active');
-    // });
-
     $(".sidebar__head__hamburger").click(function () {
         $('.sidebar').toggleClass("actives");
     });
@@ -16,4 +11,9 @@ $(document).ready(function () {
     });
 
 
+    $( ".content__header__search a" ).click(function() {
+        $( ".content__header__search input" ).toggle( "slow", function() {
+            // Animation complete.
+        });
+    });
 });
