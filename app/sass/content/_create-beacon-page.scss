@@ -1,4 +1,4 @@
-.content__header__text {
+.content__header__create-beacon-page-text{
   display: block;
   position: relative;
   float: left;
@@ -15,7 +15,7 @@
   }
 }
 
-.content__wrapper__item-conversion-static {
+.content__wrapper__item-create-beacon-page {
   display: block;
   position: relative;
   float: left;
@@ -42,6 +42,10 @@
     float: left;
     .btn-file {
       position: relative;
+      color: #777777;
+      line-height: 20px;
+      font-size: 16px;
+      font-weight: 500;
       overflow: hidden;
       width: 173px;
       height: 36px;
