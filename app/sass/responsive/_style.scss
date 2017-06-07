@@ -11,7 +11,23 @@
 }
 
 @media only screen and (max-width: 736px) {
-	
+  .sidebar {
+    position: absolute;
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+  .sidebar__profile__avatar {
+    margin-left: 4px;
+  }
+  .actives {
+    position: absolute;
+    left: -100%;
+    margin-right: -315px;
+  }
+  .sidebar__head__hamburger {
+    right: -38px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
