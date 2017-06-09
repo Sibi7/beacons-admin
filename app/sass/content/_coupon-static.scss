@@ -9,8 +9,8 @@
   background-color: #ffffff;
   &__data-from {
     .fa-calendar {
-      font-size: 18px;
-      color: #666;
+      font-size: 16px;
+      color: #777;
       display: block;
       float: left;
       margin-right: 7px;
@@ -25,7 +25,7 @@
       margin-left: 65px;
     }
     &:nth-child(3) {
-      margin-left: 150px;
+      margin-left: 50px;
     }
   }
   button {
@@ -44,16 +44,20 @@
     margin-right: 65px;
   }
   .select-style {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #b8b8b8;
     width: 137px;
     display: block;
     cursor: pointer;
     position: relative;
+    margin-top: 21px;
     z-index: 0;
     float: left;
-    margin-top: 18px;
+    color: #777777;
+    font-size: 11px;
+    font-weight: 500;
     .fa-angle-down {
       display: inline-block;
+      color: #777777;
       float: right;
       position: absolute;
       top: 0;
@@ -86,10 +90,10 @@
     font-size: 12px;
     font-weight: 700;
     line-height: 48px;
-    margin: 0 35px ;
+    margin: 0 25px ;
     text-transform: uppercase;
     &:first-child{
-      margin-left: 70px;
+      margin-left: 50px;
     }
   }
 }
