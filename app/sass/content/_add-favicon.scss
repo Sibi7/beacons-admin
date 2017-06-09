@@ -1,0 +1,78 @@
+.content__wrapper__item-add-favicon {
+  display: block;
+  position: relative;
+  float: left;
+  height: 60px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(12, 6, 14, 0.1);
+  background: #fff;
+
+  &__text {
+    display: block;
+    height: 100%;
+    position: relative;
+    float: left;
+    color: #777777;
+    margin: 0;
+    line-height: 59px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 38px;
+  }
+  &__input {
+    display: block;
+    position: relative;
+    float: left;
+    .btn-file {
+      position: relative;
+      color: #777777;
+      line-height: 20px;
+      font-size: 16px;
+      font-weight: 500;
+      overflow: hidden;
+      width: 173px;
+      height: 36px;
+      border-radius: 18px;
+      border: 1px solid #b8b8b8;
+      margin-left: 15px;
+    }
+    .btn-file input[type=file] {
+      position: absolute;
+      top: 0;
+      right: 0;
+      min-width: 100%;
+      min-height: 100%;
+      font-size: 100px;
+      text-align: right;
+      filter: alpha(opacity=0);
+      opacity: 0;
+      outline: none;
+      background: white;
+      cursor: inherit;
+      display: block;
+
+    }
+    span {
+      color: #ff6633;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 59px;
+      padding-left: 15px;
+    }
+  }
+  button {
+    display: block;
+    float: right;
+    width: 150px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #85c875;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 12px;
+    margin-right: 20px;
+    line-height: 35px;
+  }
+}
