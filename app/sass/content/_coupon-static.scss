@@ -24,9 +24,6 @@
     &:nth-child(1) {
       margin-left: 65px;
     }
-    &:nth-child(3) {
-      margin-left: 50px;
-    }
   }
   button {
     width: 126px;
@@ -39,9 +36,9 @@
     font-weight: 400;
     line-height: 32px;
     margin-top: 13px;
-    float: right;
+    float: left;
     display: inline-block;
-    margin-right: 65px;
+    margin-left: 20px;
   }
   .select-style {
     border-bottom: 1px solid #b8b8b8;
@@ -79,20 +76,21 @@
     }
   }
 }
-.coupon-static-links{
+
+.coupon-static-links {
   display: block;
   position: relative;
   float: left;
   border-bottom: 1px solid #e8e8e8;
   margin-top: 120px;
-  a{
+  a {
     color: #777777;
     font-size: 12px;
     font-weight: 700;
     line-height: 48px;
-    margin: 0 25px ;
+    margin: 0 25px;
     text-transform: uppercase;
-    &:first-child{
+    &:first-child {
       margin-left: 50px;
     }
   }

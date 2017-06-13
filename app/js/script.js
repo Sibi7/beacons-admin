@@ -1,9 +1,13 @@
 $(document).ready(function () {
 
+    $(document).on('click','.sidebar__head__hamburger', function () {
+        $('.sidebar').toggleClass('actives');
 
-    $(".sidebar__head__hamburger").click(function () {
-        $('.sidebar').toggleClass("actives");
     });
+
+    // $(".sidebar__head__hamburger").click(function () {
+    //     $('.sidebar').toggleClass("actives");
+    // });
 
 
     $(".sidebar__head__hamburger").click(function () {
@@ -17,6 +21,22 @@ $(document).ready(function () {
         });
     });
 
+    console.log($(window).width());
 
+    changeSidebar();
+
+    $(window).resize(function () {
+        changeSidebar();
+    });
+
+    function changeSidebar() {
+        if ($(window).width() >= 750){
+            $('.sidebar').removeClass("actives");
+        }
+        else{
+            $('.sidebar').addClass("actives");
+        }
+    }
 
 });
+
