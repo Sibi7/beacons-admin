@@ -1,4 +1,10 @@
-@media only screen and (max-width: 1262px) {
+@media only screen and (max-width: 1320px) {
+  .create-coupon__body__item-wrapper {
+    width: 100%
+  }
+  .content__wrapper__item-add-favicon {
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
